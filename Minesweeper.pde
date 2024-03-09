@@ -1,7 +1,7 @@
 import de.bezier.guido.*;
 public int NUM_ROWS = 10;
 public int NUM_COLS = 10;
-public int setMines = (int)(Math.random()*10 + 5);
+public int setMines = ((int)(Math.random()*10 + 5));
 private MSButton[][] buttons; //2d array of minesweeper buttons
 private ArrayList <MSButton> mines= new ArrayList <MSButton>();  
 
