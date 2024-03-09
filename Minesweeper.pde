@@ -25,8 +25,8 @@ void setup ()
 public void setMines()
 {
   for (int ce = 0; ce < setMines; ce++) {
-    int mr = (int)(Math.random()*NUM_ROWS);
-    int mc = (int)(Math.random()*NUM_COLS);
+    int mr = ((int)(Math.random()*NUM_ROWS));
+    int mc = ((int)(Math.random()*NUM_COLS));
     if (!mines.contains(buttons[mr][mc])) {
       mines.add(buttons[mr][mc]);
     }
@@ -108,8 +108,8 @@ public class MSButton
 
   public MSButton ( int row, int col )
   {
-    width = 400/NUM_COLS;
-    height = 400/NUM_ROWS;
+    width = 400.0/NUM_COLS;
+    height = 400.0/NUM_ROWS;
     myRow = row;
     myCol = col;
     x = myCol*width;
