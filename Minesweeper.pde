@@ -108,8 +108,8 @@ public class MSButton
 
   public MSButton ( int row, int col )
   {
-    width = 400.0/NUM_COLS;
-    height = 400.0/NUM_ROWS;
+    width = (float)400.0/(float)NUM_COLS;
+    height = (float)400/(float)NUM_ROWS;
     myRow = row;
     myCol = col;
     x = myCol*width;
